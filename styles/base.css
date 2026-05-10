@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+.navigation a:hover {
+    background: #444;
+}
+
+#menu {
+    display: block;
+    margin: 1rem 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+.card,
+.courses {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons button {
+    margin: .5rem;
+    padding: .5rem 1rem;
+}
+
+.course-card {
+    padding: 1rem;
+    margin: .5rem 0;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.completed {
+    background: #90ee90;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 Course Home Page</title>
+
+    <meta name="description" content="Course home page for WDD231">
+    <meta name="author" content="Luis Villegas">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Luis Villegas</h1>
+
+    <button id="menu"></button>
+
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Final</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="card">
+        <h2>About Me</h2>
+        <p>
+            I am a student from Venezuela living in Brazil. I enjoy technology,
+            programming, languages, and helping others.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Student Photo</h2>
+        <img src="images/profile.jpg" alt="Profile Photo" width="300">
+    </section>
+
+    <section class="courses">
+        <h2>Web Certificate Courses</h2>
+
+        <div class="buttons">
+            <button id="all">All</button>
+            <button id="wdd">WDD</button>
+            <button id="cse">CSE</button>
+        </div>
+
+        <div id="course-container"></div>
+
+        <p>Total Credits: <span id="credits"></span></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        © <span id="currentyear"></span> | Luis Villegas | Brazil
+    </p>
+
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>

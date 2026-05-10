@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+
+    .navigation {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .courses {
+        grid-column: span 2;
+    }
+
+    #menu {
+        display: none;
+    }
+}
