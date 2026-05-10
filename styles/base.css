@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     background: #f4f4f4;
 }
@@ -72,10 +72,6 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
 }
 
 main h1 {
