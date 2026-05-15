@@ -1,0 +1,28 @@
+{
+  "familyName": "Villegas",
+  "moveInDate": "2025-03-10",
+  "familyMembers": 4,
+  "visitedByBishopric": true,
+  "members": [
+    {
+      "name": "Luis Villegas",
+      "gender": "Male",
+      "birthdate": "2001-08-15"
+    },
+    {
+      "name": "Maria Villegas",
+      "gender": "Female",
+      "birthdate": "2003-05-21"
+    },
+    {
+      "name": "Carlos Villegas",
+      "gender": "Male",
+      "birthdate": "2010-11-02"
+    },
+    {
+      "name": "Sofia Villegas",
+      "gender": "Female",
+      "birthdate": "2015-07-18"
+    }
+  ]
+}
