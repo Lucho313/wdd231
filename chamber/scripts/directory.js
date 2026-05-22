@@ -24,8 +24,8 @@ function displayMembers(members) {
         const section = document.createElement('section');
 
         section.innerHTML = `
-            <img src="images/${member.image}" alt="${member.name}" loading="lazy">
-
+            <img src="${member.image}" alt="${member.name}" loading="lazy">
+            
             <h2>${member.name}</h2>
 
             <p>${member.address}</p>

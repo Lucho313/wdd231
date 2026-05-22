@@ -4,7 +4,7 @@
     "address": "123 Paulista Avenue, São Paulo",
     "phone": "+55 11 99999-1111",
     "website": "https://techsolutions.com",
-    "image": "tech.webp",
+    "image": "images/tech.webp",
     "membership": "Gold"
   },
 
@@ -13,7 +13,7 @@
     "address": "45 Central Street, São Paulo",
     "phone": "+55 11 98888-8888",
     "website": "https://coffeehouse.com",
-    "image": "coffee.webp",
+    "image": "images/coffee.webp",
     "membership": "Silver"
   },
 
@@ -22,7 +22,7 @@
     "address": "78 Fitness Road, São Paulo",
     "phone": "+55 11 97777-7777",
     "website": "https://fitgym.com",
-    "image": "gym.webp",
+    "image": "images/gym.webp",
     "membership": "Bronze"
   },
 
@@ -31,7 +31,7 @@
     "address": "99 Downtown Avenue, São Paulo",
     "phone": "+55 11 96666-6666",
     "website": "https://luxuryhotel.com",
-    "image": "hotel.webp",
+    "image": "images/hotel.webp",
     "membership": "Gold"
   },
 
@@ -40,7 +40,7 @@
     "address": "12 Food Street, São Paulo",
     "phone": "+55 11 95555-5555",
     "website": "https://pizzaexpress.com",
-    "image": "pizza.webp",
+    "image": "images/pizza.webp",
     "membership": "Silver"
   },
 
@@ -49,7 +49,7 @@
     "address": "200 Green Avenue, São Paulo",
     "phone": "+55 11 94444-6666",
     "website": "https://freshmarket.com",
-    "image": "market.webp",
+    "image": "images/market.webp",
     "membership": "Bronze"
   },
 
@@ -58,7 +58,7 @@
     "address": "67 Style Street, São Paulo",
     "phone": "+55 11 93333-7777",
     "website": "https://urbanbarber.com",
-    "image": "barber.webp",
+    "image": "images/barber.webp",
     "membership": "Gold"
   }
 ]
