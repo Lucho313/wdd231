@@ -11,4 +11,60 @@
         gap: 1rem;
     }
 
+    /* Discover Page */
+
+    #discover-grid {
+        grid-template-areas:
+            "a b"
+            "c d"
+            "e f"
+            "g h";
+    }
+
+    #discover-grid article:nth-child(1) {
+        grid-area: a;
+    }
+
+    #discover-grid article:nth-child(2) {
+        grid-area: b;
+    }
+
+    #discover-grid article:nth-child(3) {
+        grid-area: c;
+    }
+
+    #discover-grid article:nth-child(4) {
+        grid-area: d;
+    }
+
+    #discover-grid article:nth-child(5) {
+        grid-area: e;
+    }
+
+    #discover-grid article:nth-child(6) {
+        grid-area: f;
+    }
+
+    #discover-grid article:nth-child(7) {
+        grid-area: g;
+    }
+
+    #discover-grid article:nth-child(8) {
+        grid-area: h;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    #discover-grid {
+        grid-template-areas:
+            "a a b"
+            "c d e"
+            "f g h";
+    }
+
+    #discover-grid img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
 }
