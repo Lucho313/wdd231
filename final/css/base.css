@@ -327,3 +327,13 @@ color: var(--secondary);
 text-align: center;
 padding: 3rem 1rem;
 }
+
+.attribution-list {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.attribution-list li {
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+}
