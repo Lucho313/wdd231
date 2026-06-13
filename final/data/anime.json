@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Naruto",
+    "genre": "Shonen",
+    "year": 2002,
+    "rating": 8.4,
+    "description": "A young ninja dreams of becoming Hokage.",
+    "image": "images/naruto.webp"
+  },
+  {
+    "id": 2,
+    "title": "One Piece",
+    "genre": "Adventure",
+    "year": 1999,
+    "rating": 9.0,
+    "description": "Pirates search for the legendary One Piece.",
+    "image": "images/onepiece.webp"
+  },
+  {
+    "id": 3,
+    "title": "Attack on Titan",
+    "genre": "Action",
+    "year": 2013,
+    "rating": 9.1,
+    "description": "Humanity fights giant Titans.",
+    "image": "images/aot.webp"
+  },
+  {
+    "id": 4,
+    "title": "Demon Slayer",
+    "genre": "Fantasy",
+    "year": 2019,
+    "rating": 8.7,
+    "description": "Tanjiro fights demons to save his sister.",
+    "image": "images/demonslayer.webp"
+  },
+  {
+    "id": 5,
+    "title": "Bleach",
+    "genre": "Shonen",
+    "year": 2004,
+    "rating": 8.1,
+    "description": "Soul Reapers protect the living world.",
+    "image": "images/bleach.webp"
+  },
+  {
+    "id": 6,
+    "title": "Jujutsu Kaisen",
+    "genre": "Supernatural",
+    "year": 2020,
+    "rating": 8.8,
+    "description": "Sorcerers battle deadly curses.",
+    "image": "images/jjk.webp"
+  },
+  {
+    "id": 7,
+    "title": "Dragon Ball Z",
+    "genre": "Action",
+    "year": 1989,
+    "rating": 8.8,
+    "description": "Goku protects Earth from powerful enemies.",
+    "image": "images/dbz.webp"
+  },
+  {
+    "id": 8,
+    "title": "Death Note",
+    "genre": "Thriller",
+    "year": 2006,
+    "rating": 9.0,
+    "description": "A notebook grants the power of death.",
+    "image": "images/deathnote.webp"
+  },
+  {
+    "id": 9,
+    "title": "My Hero Academia",
+    "genre": "Superhero",
+    "year": 2016,
+    "rating": 8.2,
+    "description": "Students train to become heroes.",
+    "image": "images/mha.webp"
+  },
+  {
+    "id": 10,
+    "title": "Fullmetal Alchemist Brotherhood",
+    "genre": "Adventure",
+    "year": 2009,
+    "rating": 9.1,
+    "description": "Two brothers seek the Philosopher's Stone.",
+    "image": "images/fmab.webp"
+  },
+  {
+    "id": 11,
+    "title": "Chainsaw Man",
+    "genre": "Action",
+    "year": 2022,
+    "rating": 8.5,
+    "description": "A boy merges with a chainsaw devil.",
+    "image": "images/chainsaw.webp"
+  },
+  {
+    "id": 12,
+    "title": "Spy x Family",
+    "genre": "Comedy",
+    "year": 2022,
+    "rating": 8.6,
+    "description": "A fake family hides incredible secrets.",
+    "image": "images/spyfamily.webp"
+  },
+  {
+    "id": 13,
+    "title": "Hunter x Hunter",
+    "genre": "Adventure",
+    "year": 2011,
+    "rating": 9.0,
+    "description": "Gon searches for his father.",
+    "image": "images/hxh.webp"
+  },
+  {
+    "id": 14,
+    "title": "Tokyo Ghoul",
+    "genre": "Dark Fantasy",
+    "year": 2014,
+    "rating": 7.8,
+    "description": "A student becomes half-ghoul.",
+    "image": "images/tokyoghoul.webp"
+  },
+  {
+    "id": 15,
+    "title": "Black Clover",
+    "genre": "Magic",
+    "year": 2017,
+    "rating": 8.3,
+    "description": "Asta seeks to become the Wizard King.",
+    "image": "images/blackclover.webp"
+  }
+]

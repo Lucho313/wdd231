@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+:root {
+--primary: #ff9f1c;
+--secondary: #ffbf69;
+--accent: #ffd60a;
+
+```
+--background: #12111a;
+--surface: #1d1b2a;
+--card: #29263d;
+
+--purple: #6d28d9;
+--purple-light: #8b5cf6;
+
+--text: #ffffff;
+--text-secondary: #cbd5e1;
+
+--shadow: rgba(0, 0, 0, 0.35);
+```
+
+}
+
+body {
+font-family: "Segoe UI", Arial, sans-serif;
+background: linear-gradient(180deg, #12111a, #1b1730);
+color: var(--text);
+line-height: 1.6;
+min-height: 100vh;
+}
+
+img {
+width: 100%;
+display: block;
+}
+
+header {
+background-color: rgba(18,17,26,.95);
+backdrop-filter: blur(10px);
+border-bottom: 3px solid var(--primary);
+position: sticky;
+top: 0;
+z-index: 1000;
+padding: 1rem;
+}
+
+header h1 {
+text-align: center;
+color: var(--primary);
+letter-spacing: 2px;
+}
+
+#menuBtn {
+display: block;
+width: 100%;
+margin-top: .5rem;
+padding: .8rem;
+font-size: 1.4rem;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+background-color: var(--primary);
+color: black;
+font-weight: bold;
+}
+
+nav {
+display: none;
+flex-direction: column;
+}
+
+nav.open {
+display: flex;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+padding: 1rem;
+text-align: center;
+border-radius: 10px;
+margin-top: .3rem;
+transition: .3s;
+}
+
+nav a:hover {
+background-color: var(--purple);
+}
+
+.active {
+background-color: var(--primary);
+color: black;
+font-weight: bold;
+}
+
+main {
+max-width: 1300px;
+margin: auto;
+padding: 1.5rem;
+}
+
+section {
+margin-bottom: 2rem;
+}
+
+.hero {
+min-height: 70vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+```
+text-align: center;
+padding: 3rem;
+
+border-radius: 25px;
+
+background:
+    linear-gradient(
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.8)
+    ),
+    url("../images/banner.webp");
+
+background-size: cover;
+background-position: center;
+
+box-shadow: 0 8px 25px var(--shadow);
+```
+
+}
+
+.hero h2 {
+font-size: 3rem;
+color: var(--primary);
+margin-bottom: 1rem;
+}
+
+.hero p {
+max-width: 700px;
+margin-bottom: 1rem;
+}
+
+.btn {
+display: inline-block;
+text-decoration: none;
+background-color: var(--primary);
+color: black;
+padding: 1rem 2rem;
+border-radius: 50px;
+font-weight: bold;
+transition: .3s;
+}
+
+.btn:hover {
+transform: translateY(-4px);
+background-color: var(--accent);
+}
+
+.about,
+.featured {
+background-color: var(--surface);
+border-radius: 20px;
+padding: 2rem;
+box-shadow: 0 4px 15px var(--shadow);
+}
+
+.about h2,
+.featured h2 {
+margin-bottom: 1rem;
+color: var(--primary);
+}
+
+.featured-grid {
+display: grid;
+gap: 1rem;
+}
+
+.featured-grid article {
+background-color: var(--card);
+border-left: 4px solid var(--primary);
+padding: 1.5rem;
+border-radius: 15px;
+transition: .3s;
+}
+
+.featured-grid article:hover {
+transform: translateY(-5px);
+}
+
+#animeContainer,
+#favoritesContainer {
+display: grid;
+gap: 1.5rem;
+}
+
+.anime-card {
+background-color: var(--card);
+border-radius: 18px;
+overflow: hidden;
+transition: .3s;
+box-shadow: 0 5px 18px var(--shadow);
+}
+
+.anime-card:hover {
+transform: translateY(-8px);
+}
+
+.anime-card img {
+aspect-ratio: 2 / 3;
+object-fit: cover;
+}
+
+.anime-info {
+padding: 1rem;
+}
+
+.anime-info h3 {
+color: var(--primary);
+margin-bottom: .5rem;
+}
+
+.anime-info p {
+color: var(--text-secondary);
+}
+
+.card-buttons {
+display: flex;
+gap: .5rem;
+margin-top: 1rem;
+}
+
+.details-btn,
+.favorite-btn,
+.remove-btn {
+flex: 1;
+border: none;
+border-radius: 10px;
+padding: .8rem;
+cursor: pointer;
+font-weight: bold;
+}
+
+.details-btn {
+background-color: var(--purple);
+color: white;
+}
+
+.favorite-btn {
+background-color: var(--primary);
+color: black;
+}
+
+.remove-btn {
+background-color: #dc2626;
+color: white;
+}
+
+dialog {
+background-color: var(--surface);
+color: white;
+border: none;
+border-radius: 20px;
+width: 90%;
+max-width: 600px;
+padding: 2rem;
+}
+
+dialog::backdrop {
+background: rgba(0,0,0,.75);
+}
+
+#closeModal {
+background-color: var(--primary);
+border: none;
+padding: .8rem 1rem;
+border-radius: 10px;
+cursor: pointer;
+margin-bottom: 1rem;
+}
+
+form {
+background-color: var(--surface);
+padding: 2rem;
+border-radius: 20px;
+}
+
+form label {
+display: block;
+margin-bottom: 1rem;
+}
+
+input,
+textarea {
+width: 100%;
+margin-top: .3rem;
+padding: .9rem;
+border: none;
+border-radius: 10px;
+}
+
+input[type="submit"] {
+background-color: var(--primary);
+color: black;
+font-weight: bold;
+cursor: pointer;
+}
+
+footer {
+margin-top: 3rem;
+padding: 2rem;
+text-align: center;
+background-color: #0d0c13;
+border-top: 3px solid var(--primary);
+}
+
+footer a {
+color: var(--secondary);
+}
+
+.thanks-page {
+text-align: center;
+padding: 3rem 1rem;
+}
